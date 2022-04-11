@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+div{
+    width: 500px;
+    height: 100px;
+    border:10px solid red;
+    border-left-style:dashed;
+}

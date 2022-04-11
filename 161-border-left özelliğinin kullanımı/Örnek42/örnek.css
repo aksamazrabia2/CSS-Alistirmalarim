@@ -1,0 +1,51 @@
+@charset "utf-8";
+.Bir{
+    width: 500px;
+    height: 40px;
+    border-left:none red;
+}
+.İki{
+    width: 500px;
+    height: 40px;
+    border-left:hidden red;
+}
+.Üç{
+    width: 500px;
+    height: 40px;
+    border-left:solid red;
+}
+.Dört{
+    width: 500px;
+    height:40px;
+    border-left:double red;
+}
+.Beş{
+    width: 500px;
+    height:40px;
+    border-left:dashed red;
+}
+.Altı{
+    width: 500px;
+    height:40px;
+    border-left:dotted red;
+}
+.Yedi{
+    width: 500px;
+    height: 40px;
+    border-left:groove red;
+}
+.Sekiz{
+    width: 500px;
+    height: 40px;
+    border-left:ridge red;
+}
+.Dokuz{
+    width: 500px;
+    height:40px;
+    border-left:inset red;
+}
+.On{
+    width: 500px;
+    height:40px;
+    border-left:outset red;
+}

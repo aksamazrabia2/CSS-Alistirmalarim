@@ -1,0 +1,10 @@
+@charset "utf-8";
+p{
+    width: 500px;
+    height: 50px;
+    border:2px solid blue;
+    border-bottom-width: 15px;
+}
+p[name="Islem"]{
+    border-bottom-width: initial;
+}

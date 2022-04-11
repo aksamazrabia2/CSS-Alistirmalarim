@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+div{
+    width: 400px;
+    height: 200px;
+    border:90px solid transparent;
+    -webkit-border-image:url(Resim.jpg) ;
+    -moz-border-image:url(Resim.jpg) ;
+    -o-border-image:url(Resim.jpg) ;
+    -ms-border-image:url(Resim.jpg) ;
+    border-image: url(Resim.jpg);
+    
+}

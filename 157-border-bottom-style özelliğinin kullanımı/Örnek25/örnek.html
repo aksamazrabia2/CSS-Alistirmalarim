@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        border-bottom-style : HTML elementinin alt kenarlık/çerçeve stilini belirler.
+        Değerler            : none/hidden/solid/double/dashed/dotted/groove/ridge/inset/outset/initial/inherit
+        none                :Değer yok
+        hidden              :Gizli,
+        solid               :Düz çizgi,
+        double              :Çift çizgi,
+        dashed              :Kesikli çizgi,
+        dotted              :Noktalı çizgi,
+        groove              :İçe dönük gölgeli çizgi,
+        ridge               :Dışa dönük gölgeli çizgi,
+        inset               :İçe dönük derin çizgi,
+        outset              :Dışa dönük gölgeli çizgi,
+        initial             :HTML elementi varsayılan biçimlendirme değerine döner.
+        inherit             :HTML elementi üst elementin biçimlendirme değerini alır.
+        */
+        div{
+            width: 500px;
+            height: 300px;
+            border: 10px solid blue;
+            border-bottom-style: dashed;
+        }
+       #bir{
+            width: 400px;
+            height: 30px;
+            border: 5px solid yellow;
+            border-bottom-style: inherit;
+        }
+        #iki{
+            width: 400px;
+            height: 30px;
+            border: 5px solid black;
+            border-bottom-style: inherit;
+        }
+        #üç{
+            width: 400px;
+            height: 30px;
+            border: 5px solid red;
+            border-bottom-style: inherit;
+        }
+       #dört{
+            width: 400px;
+            height: 30px;
+            border: 5px solid green;
+            border-bottom-style: inherit;
+        }
+        beş{
+            width: 400px;
+            height: 30px;
+            border: 5px solid gray;
+            border-bottom-style: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p id="bir"></p>
+        <p id="iki"></p>
+        <p id="üç"></p>
+        <p id="dört"></p>
+        <p id="beş"></p>
+    </div>
+</body>
+</html>

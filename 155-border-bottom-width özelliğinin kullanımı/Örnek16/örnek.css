@@ -1,0 +1,13 @@
+@charset "utf-8";
+div{
+    width: 500px;
+    height: 70px;
+    border:2px solid blue;
+    border-bottom-width: thin;
+}
+p{
+    width: 400px;
+    height: 20px;
+    border:2px solid red;
+    border-bottom-width: inherit;
+}

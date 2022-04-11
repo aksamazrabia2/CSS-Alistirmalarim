@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+p{
+    width:750px;
+           height:250px ;
+           /*border-right:8px solid #FF9900;*/
+           border-right-width: 8px;
+           border-right-style: solid;
+           border-right-color:orange;
+}

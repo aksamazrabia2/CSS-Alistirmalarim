@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+p{
+    width: 600px;
+    height: 300px;
+    /*border-bottom:6px solid red;*/
+    border-bottom-width: 6px;
+    border-bottom-style:solid;
+    border-bottom-color:red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+p{
+    width: 1000px;
+    height: 60px;
+    border:10px solid orange;
+   
+}
+.Deneme{
+    border-left-width:50px;
+}

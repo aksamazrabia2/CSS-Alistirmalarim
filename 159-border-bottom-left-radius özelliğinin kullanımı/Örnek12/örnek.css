@@ -1,0 +1,12 @@
+@charset "utf-8";
+p{
+    width: 500px;
+    height: 100px;
+    border:4px dashed red;
+    border-bottom-left-radius: 25px 30%;
+
+}
+p[name="Deneme"]{
+   
+    border-bottom-left-radius: initial;
+}

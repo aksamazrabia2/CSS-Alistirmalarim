@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* border-image: HTML elementinin kenarlık/çerçeve resim özelliklerini belirler.
+        Parametreler: image/slice/repeat
+        Değerler    :image & initial & inherit / length & % / repeat &round & stretch
+        image       :resim değeri,
+        initial     :HTML elementi varsayılan biçimlendirme değerine sahiptir.
+        inherit     :HTML elementi üst elementinin biçimlendirme değerini alır.
+        length      :Uzunluk Değeri,
+        %           :Yüzde değeri,
+        repeat      :Tekrarla,
+        round       :Yuvarla,
+        stretch     :Uzat &Gerdir & Esnet
+*/
+    div{
+        width: 400px;
+        height: 200px;
+        border:90px solid transparent;
+        -webkit-border-image:url(Resim.jpg) 30 round;
+        -moz-border-image:url(Resim.jpg) 30 round;
+        -o-border-image:url(Resim.jpg) 30 round;
+        -ms-border-image:url(Resim.jpg) 30 round;
+        border-image: url(Resim.jpg) 30 round;
+            
+        }
+      
+
+
+
+    </style>
+</head>
+<body>
+    <div></div><br>
+    <div style=" -webkit-border-image:initial;  -moz-border-image:initial; -o-border-image:initial; -ms-border-image:initial; border-image: initial;">Rabia Aksamaz</div>
+</body>
+</html>

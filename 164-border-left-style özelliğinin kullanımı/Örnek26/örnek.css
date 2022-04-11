@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.bir{
+    width: 500px;
+    height: 120px;
+    border:10px solid blue;
+    border-left-style:dotted;
+}
+.iki{
+    width: 400px;
+    height: 60px;
+    border:10px solid red;
+    border-left-style:inherit;
+}
