@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+div{
+    width: 400px;
+    height: 200px;
+    border:20px solid transparent;
+    border-image-source:url(Resim.jpg);
+}
+p{
+    width: 200px;
+    height: 100px;
+    border:20px solid transparent;
+    border-image-source:inherit;
+}
